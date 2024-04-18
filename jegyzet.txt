@@ -1,0 +1,36 @@
+cd api
+
+npm init -y
+npm i -D hai-server
+---------------------
+hai-server.json
+    {
+      "port": 8000
+      "watch": true
+    }
+---------------------
+
+http://localhost:8000/employees
+                      ^^^^^^^^^ -> végpont
+
+-------------------------------------------
+    Java script kliens
+
+cd web
+sin init
+npm i
+sin serve
+
+fel kell iratkozni a valaszra
+--------------------------------
+    CRUD műveletek
+
+CRUD (Create Read Update Delete)
+
+git init
+git status -u
+.git ignore file 
+  node_modules/
+git status -u
+git add .
+git commit -m ""
